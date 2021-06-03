@@ -16,6 +16,6 @@ char buffer[80];
 fd = open(fifo_one, O_RDONLY);
 read(fd, buffer, sizeof(buffer));
 
-closed(fd); 
+close(fd); 
 
 }
