@@ -17,6 +17,6 @@ char buffer[80];
 fd1 = open(fifo_one, O_WRONLY);
 write(fd1, buffer, sizeof(buffer)); 
 printf("Saqlain Nasir mc200204513\n");
-closed(fd1);
+close(fd1);
 
 }
